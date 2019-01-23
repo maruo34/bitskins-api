@@ -1,0 +1,14 @@
+{
+    "name": "mario34/bitskins-api",
+    "description": "Bitskins.com Api Library for PHP",
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "*",
+        "spomky-labs/otphp": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bitskins\\": "src/"
+        }
+    }
+}
